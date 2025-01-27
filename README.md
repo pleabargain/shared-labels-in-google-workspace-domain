@@ -7,6 +7,8 @@ https://github.com/pleabargain/shared-labels-in-google-workspace-domain
 ## to the developer
 It's very important the developer has access to their own Google Workspace account to test their script.
 
+I will expect a shared screen session with the developer to set up permanent tokens and establish the correct APIs to achieve the shared email/label goal.
+
 
 
 ## Technical Requirements
