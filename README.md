@@ -3,6 +3,12 @@
 # Repository
 https://github.com/pleabargain/shared-labels-in-google-workspace-domain
 
+
+## to the developer
+It's very important the developer has access to their own Google Workspace account to test their script.
+
+
+
 ## Technical Requirements
 - Clear visualization of email sharing workflow
 - Accurate representation of system interactions
