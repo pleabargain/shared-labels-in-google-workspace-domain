@@ -1,8 +1,45 @@
 # Shared Labels in Google Workspace: Email Sharing Guide
 
-
-# repo
+# Repository
 https://github.com/pleabargain/shared-labels-in-google-workspace-domain
+
+## Technical Requirements
+- Clear visualization of email sharing workflow
+- Accurate representation of system interactions
+- Easy-to-follow process flow
+- Proper permission management implementation
+- Secure access control mechanisms
+
+## Prerequisites & Permissions
+
+### Administrator Requirements
+- Google Workspace administrator access
+- Ability to manage organizational units
+- Access to Google Admin Console
+- Rights to configure Gmail settings
+
+### User Requirements
+- Google Workspace account
+- Membership in appropriate user groups
+- Access to specific project labels
+- Permission to apply/remove shared labels
+
+## Testing Environment Setup
+1. Required Test Accounts:
+   - Administrator account
+   - Test sender account(s)
+   - Test recipient account(s)
+
+2. Test Label Configuration:
+   - Create dedicated test labels
+   - Set up test project groups
+   - Configure varying permission levels
+
+3. Verification Steps:
+   - Validate admin permissions
+   - Confirm user access levels
+   - Test label visibility
+   - Verify email sharing functionality
 
 ## Overview
 This guide explains how to use shared labels in Google Workspace to efficiently share emails with team members without the need for manual forwarding. The system uses label-based permissions to make emails accessible to authorized users while maintaining organization and security.
@@ -20,15 +57,15 @@ flowchart TD
     G -->|Make accessible| H[Shared Access]
     H -->|Visible to| I[All users with projectX permissions]
     
-    style A fill:#e1f5fe
-    style B fill:#e8f5e9
-    style C fill:#fff3e0
-    style D fill:#ffebee
-    style E fill:#f3e5f5
-    style F fill:#e8eaf6
-    style G fill:#e0f2f1
-    style H fill:#f9fbe7
-    style I fill:#fce4ec
+    style A fill:#2196f3,color:#ffffff
+    style B fill:#4caf50,color:#ffffff
+    style C fill:#ff9800,color:#ffffff
+    style D fill:#f44336,color:#ffffff
+    style E fill:#9c27b0,color:#ffffff
+    style F fill:#3f51b5,color:#ffffff
+    style G fill:#009688,color:#ffffff
+    style H fill:#8bc34a,color:#ffffff
+    style I fill:#e91e63,color:#ffffff
 ```
 
 ## Step-by-Step Instructions
@@ -76,12 +113,67 @@ flowchart TD
 - Users must have appropriate permissions to view shared emails
 - The original sender and recipients remain unchanged
 
+## Setup Process Flowchart
+
+```mermaid
+flowchart TD
+    A[Start Setup] -->|Admin Console| B[Access Admin Settings]
+    B -->|Configure| C[Create Shared Labels]
+    C -->|Define| D[Set Permission Groups]
+    D -->|Assign| E[User Access Levels]
+    
+    E -->|Setup| F[Test Environment]
+    F -->|Create| G[Test Accounts]
+    F -->|Configure| H[Test Labels]
+    
+    G -->|Verify| I[Test Configuration]
+    H -->|Verify| I
+    
+    I -->|Success| J[Production Ready]
+    I -->|Failed| K[Troubleshooting]
+    K -->|Adjust| D
+    
+    style A fill:#2196f3,color:#ffffff
+    style B fill:#4caf50,color:#ffffff
+    style C fill:#ff9800,color:#ffffff
+    style D fill:#f44336,color:#ffffff
+    style E fill:#9c27b0,color:#ffffff
+    style F fill:#3f51b5,color:#ffffff
+    style G fill:#009688,color:#ffffff
+    style H fill:#8bc34a,color:#ffffff
+    style I fill:#e91e63,color:#ffffff
+    style J fill:#2196f3,color:#ffffff
+    style K fill:#f44336,color:#ffffff
+```
+
+## Troubleshooting Guide
+1. Permission Issues
+   - Verify user is in correct groups
+   - Check label permissions
+   - Confirm admin settings
+   - Review access logs
+
+2. Label Visibility Problems
+   - Clear browser cache
+   - Refresh Gmail
+   - Check label sync status
+   - Verify label permissions
+
+3. Email Sharing Issues
+   - Confirm label application
+   - Check recipient permissions
+   - Verify email visibility settings
+   - Review sharing policies
+
 ## Support
 Contact your Google Workspace administrator for:
 - Setting up new shared labels
 - Adjusting permissions
 - Troubleshooting access issues
 - Training and additional support
+- Permission group configuration
+- Access control modifications
+- System audit requests
 
 ## Security Considerations
 - Only apply shared labels to emails that should be visible to the entire project team

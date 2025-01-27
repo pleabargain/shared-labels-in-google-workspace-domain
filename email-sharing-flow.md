@@ -1,3 +1,6 @@
+
+
+```mermaid
 flowchart TD
     A[Email Arrives] -->|Received by| B[User's Inbox]
     B -->|User identifies relevant email| C{Apply projectX Label?}
