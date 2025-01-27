@@ -1,5 +1,9 @@
 # Shared Labels in Google Workspace: Email Sharing Guide
 
+
+# repo
+https://github.com/pleabargain/shared-labels-in-google-workspace-domain
+
 ## Overview
 This guide explains how to use shared labels in Google Workspace to efficiently share emails with team members without the need for manual forwarding. The system uses label-based permissions to make emails accessible to authorized users while maintaining organization and security.
 
