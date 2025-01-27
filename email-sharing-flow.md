@@ -8,15 +8,15 @@ flowchart TD
     G -->|Make accessible| H[Shared Access]
     H -->|Visible to| I[All users with projectX permissions]
     
-    style A fill:#2196f3
-    style B fill:#2196f3
-    style C fill:#ff9800
-    style D fill:#f44336
-    style E fill:#3f51b5
-    style F fill:#3f51b5
-    style G fill:#3f51b5
-    style H fill:#2196f3
-    style I fill:#2196f3
+    style A fill:#2196f3,color:#ffffff
+    style B fill:#2196f3,color:#ffffff
+    style C fill:#ff9800,color:#ffffff
+    style D fill:#f44336,color:#ffffff
+    style E fill:#3f51b5,color:#ffffff
+    style F fill:#3f51b5,color:#ffffff
+    style G fill:#3f51b5,color:#ffffff
+    style H fill:#2196f3,color:#ffffff
+    style I fill:#2196f3,color:#ffffff
 ```
 
 # Email Sharing via Shared Labels in Google Workspace
